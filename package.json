@@ -1,0 +1,30 @@
+{
+  "name": "concoct-mustache",
+  "version": "0.0.0",
+  "description": "A mustache.js plugin for ConcoctJS.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EyalAr/ConcoctJS-Mustache.git"
+  },
+  "keywords": [
+    "mustache.js",
+    "concoctjs",
+    "concoct",
+    "plugin",
+    "template",
+    "compiler"
+  ],
+  "author": "Eyal Arubas <eyalarubas@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EyalAr/ConcoctJS-Mustache/issues"
+  },
+  "homepage": "https://github.com/EyalAr/ConcoctJS-Mustache",
+  "dependencies": {
+    "mustache": "^0.8.1"
+  }
+}
