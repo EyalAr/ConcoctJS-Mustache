@@ -4,7 +4,7 @@
   "description": "A mustache.js plugin for ConcoctJS.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "DEBUG=\"concoct:* -concoct:debug\" mocha -R spec ./test/tests"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,11 @@
   "homepage": "https://github.com/EyalAr/ConcoctJS-Mustache",
   "dependencies": {
     "mustache": "^0.8.1"
+  },
+  "devDependencies": {
+    "should": "~3.3.0",
+    "mocha": "~1.18.2",
+    "rimraf": "~2.2.6",
+    "concoct": "0.0.2"
   }
 }
