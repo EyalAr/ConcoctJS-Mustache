@@ -1,6 +1,6 @@
 {
   "name": "concoct-mustache",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A mustache.js plugin for ConcoctJS.",
   "main": "lib/index.js",
   "scripts": {
